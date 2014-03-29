@@ -1,0 +1,11 @@
+\NeedsTeXFormat{LaTeX2e}[1994/06/01]
+\ProvidesPackage{appendixset}[2014/03/29 Flexible sets off appendices]
+
+%\RequirePackage{hyperref} % Test whether it's loaded, don't force usage
+\RequirePackage{appendix} % This one is really necessary
+\RequirePackage{pgfkeys} % Config is stored in pgfkeys tree
+
+\NewDocumentCommand{\appendixset}{m}{
+    \pgfqkeys{}
+  }
+\endinput
