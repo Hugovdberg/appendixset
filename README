@@ -1,0 +1,9 @@
+*******************************************************************************
+                            The appendixset Package
+*******************************************************************************
+
+Appendixset provides a number of commands to manage multiple sets of appendices
+in a LaTeX document. Furthermore, if the package hyperref is loaded, measures 
+are taken to prevent clashing identifiers.
+
+Configuration of the appendices is done through a pgfkeys tree
